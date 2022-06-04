@@ -1,6 +1,5 @@
 # Diana Bezkrovnaya #
 ![if you see this text it means you don't see me](https://sun9-west.userapi.com/sun9-53/s/v1/ig2/rG1fGmikevqC5FRL5O6YbgThb7bRSwkKd4xJT7RGh8nstMCN0fmpLOAOtXMmBczjGzOiGTS5oyfigCpPnh1z8dbJ.jpg?size=200x200&quality=95&type=album)
-___
 
 ## Contacts ##
 
@@ -50,4 +49,3 @@ function multiply(a, b){
 
 - Russian
 - English (B2)
-___
