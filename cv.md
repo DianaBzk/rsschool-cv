@@ -4,11 +4,11 @@ ___
 
 ## Contacts ##
 
-:house: Location: Brest, Belarus  
-:telephone_receiver: Phone: +375 33 6969148  
-:envelope: E-mail: 6969148@gmail.com  
-:octocat: GitHub: https://github.com/DianaBzk  
-:speech_balloon: Discord: Diana_Bzk (@DianaBzk)  
+- Location: Brest, Belarus  
+- Phone: +375 33 6969148  
+- E-mail: 6969148@gmail.com  
+- GitHub: https://github.com/DianaBzk  
+- Discord: Diana_Bzk (@DianaBzk)  
 
 
 ## About me ##
