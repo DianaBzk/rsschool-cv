@@ -1,0 +1,44 @@
+# Diana Bezkrovnaya #
+
+### Contacts ###
+
+:house: Location: Brest, Belarus
+:telephone_receiver: Phone: +375 33 6969148
+:envelope: E-mail: 6969148@gmail.com
+:octocat: GitHub: https://github.com/DianaBzk
+:speech_balloon: Discord: Diana_Bzk (@DianaBzk)
+
+### About me ###
+
+I have a higher education and work experience as road construction engineer. Self-taught vector graphic and work with studio as vector realistic illustrator. I'm doing 3D in Blender and Substance Painter as hobby. I love to learn, quickly understand new information and want to develop in programming to have more opportunities.
+
+### Skills ###
+
+- HTML5, CSS3;
+- JavaScript Basics;
+- Git, GitHub;
+- VS Code;
+- Photoshop, Illustrator, Blender, SP.
+
+### Code example ###
+
+```javascript
+function multiply(a, b){
+  return a * b
+}
+```
+
+### Experience ###
+
+- civil engineer in road construction department 2016-2019;
+- realistic vector illustrator in microstocks studio 2020-2022;
+
+### Education ###
+
+- BrSTU: Road Construction major, bachelor;
+- Rolling Scopes School: JavaScript Frontend (in process)
+
+### Language ###
+
+- Russian
+- English (B2)
