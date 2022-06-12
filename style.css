@@ -119,8 +119,8 @@ body {
   list-style-image: url(./assets/icons/location.png);
   margin-bottom: 20px;
 }
-.text-phone {
-  list-style-image: url(./assets/icons/phone.png);
+.telegram {
+  list-style-image: url(./assets/icons/telegram.png);
   margin: 20px 0;
 }
 .text-mail {
