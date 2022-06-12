@@ -221,6 +221,10 @@ body {
   width: 350px;
   margin: 25px 0 15px 140px;
   display: block;
+  transition: transform 0.3s;
+}
+.rs-logo:hover {
+  transform: scale(1.1);
 }
 .meta {
   margin: 60px 0 0 80px;
@@ -234,4 +238,8 @@ body {
 .github-logo {
   margin: 19px auto 0;
   display: block;
+  transition: filter 0.8s;
+}
+.github-logo:hover {
+  filter: opacity(10%);
 }
