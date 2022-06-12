@@ -1,3 +1,237 @@
-h1 {
-    text-align: center;
+@font-face {
+  font-family: "GlacialIndifference";
+  src: url("./assets/fonts/GlacialIndifference-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GlacialIndifference";
+  src: url("./assets/fonts/GlacialIndifference-Bold.woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: rgb(233, 233, 233);
+}
+.header-content-container {
+  display: flex;
+  background-color: rgb(40, 37, 54);
+}
+.header-photo {
+  width: 390px;
+  position: relative;
+  left: 50px;
+  background-color: rgb(206, 57, 23);
+}
+.userpic {
+  width: 300px;
+  border-radius: 50%;
+  margin: 25px auto 0;
+  display: block;
+  border: 15px solid rgb(40, 37, 54);
+}
+.header-content {
+  width: 860px;
+  position: relative;
+  left: 50px;
+}
+.section-profile {
+  font-family: GlacialIndifference;
+  font-size: 85px;
+  font-weight: 700;
+  color: rgb(233, 233, 233);
+}
+.nav-list {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-link {
+  padding: 0 14px;
+  line-height: 70px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: GlacialIndifference;
+  font-weight: 400;
+  color: rgb(233, 233, 233);
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: rgb(230, 80, 46);
+  text-decoration: underline;
+}
+.section-headline {
+  margin-left: 73px;
+  padding: 20px 0;
+}
+.main-content-container {
+  display: flex;
+}
+.aside {
+  height: auto;
+  width: 390px;
+  position: relative;
+  left: 50px;
+  font-size: 26px;
+  font-family: GlacialIndifference;
+  color: rgb(233, 233, 233);
+  background-color: rgb(230, 80, 46);
+}
+.main {
+  width: 860px;
+  position: relative;
+  left: 50px;
+  font-size: 24px;
+  font-family: GlacialIndifference;
+  color: rgb(40, 37, 54);
+}
+.section-title {
+  border-left: 5px solid rgb(230, 80, 46);
+  border-top: 5px solid rgb(230, 80, 46);
+  border-bottom: 5px solid rgb(230, 80, 46);
+  border-radius: 20px 0 0 20px;
+  margin: 30px 0 0 0;
+  padding: 3px 0 3px 30px;
+  font-family: GlacialIndifference;
+  font-size: 48px;
+  font-weight: 700;
+}
+.section {
+  padding-left: 30px;
+}
+.text-location {
+  list-style-image: url(./assets/icons/location.png);
+  margin-bottom: 20px;
+}
+.text-phone {
+  list-style-image: url(./assets/icons/phone.png);
+  margin: 20px 0;
+}
+.text-mail {
+  list-style-image: url(./assets/icons/mail.png);
+  margin: 20px 0;
+}
+.text-github {
+  list-style-image: url(./assets/icons/github.png);
+  margin: 20px 0;
+}
+.text-discord {
+  list-style-image: url(./assets/icons/discord.png);
+  margin: 20px 0;
+}
+.contacts-link {
+  text-decoration: none;
+  color: rgb(233, 233, 233);
+  transition: color 0.3s;
+}
+.contacts-link:hover {
+  color: rgb(40, 37, 54);
+  text-decoration: underline;
+}
+.text-about-me {
+  padding: 0 20px;
+  line-height: 1.5;
+}
+.text-education {
+  list-style-type: square;
+  line-height: 2;
+}
+.text-languages,
+.text-skills {
+  margin-top: 20px;
+  padding: 0;
+  line-height: 2;
+  list-style-type: none;
+}
+.code {
+  margin: 10px 80px 0 0;
+  padding: 30px 0 0 0;
+  background-color: rgb(40, 37, 54);
+  border-radius: 20px;
+}
+.text-purple {
+  color: rgb(162, 97, 222);
+}
+.text-orange {
+  color: rgb(230, 80, 46);
+}
+.text-white {
+  color: rgb(233, 233, 233);
+}
+.project-content-container {
+  display: flex;
+}
+.project-thumb {
+  margin-top: 20px;
+  width: 210px;
+  border: 10px solid rgb(40, 37, 54);
+  border-radius: 20px;
+  display: block;
+}
+.project-description {
+  width: 300px;
+  padding-left: 10px;
+}
+.project-future {
+  margin: 20px 0 0 40px;
+  width: 210px;
+  height: 154px;
+  background-color: rgb(196, 196, 196);
+  border: 10px solid rgb(40, 37, 54);
+  border-radius: 20px;
+}
+.project-future-text {
+  padding: 0 30px;
+  color: rgb(233, 233, 233);
+  text-align: center;
+}
+.footer-content-container {
+  display: flex;
+  background-color: rgb(40, 37, 54);
+}
+.footer-github {
+  width: 390px;
+  position: relative;
+  left: 50px;
+  background-color: rgb(206, 57, 23);
+}
+.footer-rs-logo,
+.footer-year {
+  width: 430px;
+  position: relative;
+  left: 50px;
+}
+.rs-logo {
+  width: 350px;
+  margin: 25px 0 15px 140px;
+  display: block;
+}
+.meta {
+  margin: 60px 0 0 80px;
+  padding: 0;
+  font-family: GlacialIndifference;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 0.8;
+  color: rgb(233, 233, 233);
+}
+.github-logo {
+  margin: 19px auto 0;
+  display: block;
 }
