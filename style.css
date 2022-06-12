@@ -84,7 +84,7 @@ body {
   display: flex;
 }
 .aside {
-  height: 100%;
+  height: auto;
   width: 390px;
   position: relative;
   left: 50px;
