@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="./assets/icons/favicon.ico" />
+    <title>CV</title>
   </head>
   <body>
-    <!-- Header of CV starts here -->
-    <header class="header">
-      <div class="container">
-        <div class="header-content-container">
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-container container">
+          <div class="header-decorative-box"></div>
           <div class="header-photo">
-            <img src="./assets/img/avatar.jpg" alt="photo" class="userpic" />
+            <img src="./assets/img/avatar.jpg" alt="my_photo" class="userpic" />
           </div>
           <div class="header-content">
             <nav class="nav">
@@ -42,23 +42,21 @@
                 </li>
               </ul>
             </nav>
-            <section class="section-headline" id="profile">
+            <div class="header-headline" id="profile">
               <h1 class="section-profile">Diana Bezkrovnaya</h1>
-            </section>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
-    <!-- Main content of CV starts here. It contain aside and main section-->
-    <div class="main-content">
-      <div class="container">
-        <div class="main-content-container">
-          <!-- Aside section -->
-          <aside class="aside">
+      </header>
+      <!--Main section---------------------------------------------------------------------------------->
+      <main class="main">
+        <div class="main-container container">
+          <div class="main-decorative-box"></div>
+          <div class="main-sidebar">
             <section class="section" id="contacts">
               <h2 class="section-title">Contacts</h2>
-              <ul>
-                <li class="text-location">
+              <ul class="contacts-list">
+                <li class="location-item">
                   <a
                     href="https://www.google.com/maps/@52.0880842,23.6328486,12z"
                     class="contacts-link"
@@ -67,7 +65,7 @@
                     Brest, Belarus
                   </a>
                 </li>
-                <li class="telegram">
+                <li class="telegram-item">
                   <a
                     href="https://t.me/Tsuyoku_Naritai"
                     class="contacts-link"
@@ -76,7 +74,7 @@
                     t.me/Tsuyoku_Naritai
                   </a>
                 </li>
-                <li class="text-mail">
+                <li class="mail-item">
                   <a
                     href="mailto:6969148@gmail.com"
                     class="contacts-link"
@@ -85,7 +83,7 @@
                     6969148@gmail.com
                   </a>
                 </li>
-                <li class="text-github">
+                <li class="github-item">
                   <a
                     href="https://github.com/DianaBzk"
                     class="contacts-link"
@@ -94,7 +92,7 @@
                     github.com/DianaBzk
                   </a>
                 </li>
-                <li class="text-discord">
+                <li class="discord-item">
                   <a
                     href="https://discord.com/channels/@diana_bzk#9317"
                     class="contacts-link"
@@ -107,34 +105,34 @@
             </section>
             <section class="section" id="skills">
               <h2 class="section-title">Skills</h2>
-              <ul class="text-skills">
-                <li>
+              <ul class="skills-list">
+                <li class="skills-item">
                   <img src="./assets/icons/html-skills.png" alt="html" /> HTML5
                   <img src="./assets/icons/css-skills.png" alt="css" /> CSS3
                 </li>
-                <li>
+                <li class="skills-item">
                   <img
                     src="./assets/icons/javascript-skills.png"
                     alt="javascript"
                   />
                   JavaScript Basics
                 </li>
-                <li>
+                <li class="skills-item">
                   <img src="./assets/icons/git-skills.png" alt="git" /> Git
                   <img src="./assets/icons/github.png" alt="github" /> GitHub
                 </li>
-                <li>
+                <li class="skills-item">
                   <img src="./assets/icons/vscode-skills.png" alt="vscode" />
                   VisualStudioCode
                 </li>
-                <li>
+                <li class="skills-item">
                   <img
                     src="./assets/icons/photoshop-skills.png"
                     alt="photoshop"
                   />
                   Adobe Photoshop
                 </li>
-                <li>
+                <li class="skills-item">
                   <img
                     src="./assets/icons/illustrator-skills.png"
                     alt="illustrator"
@@ -145,20 +143,20 @@
             </section>
             <section class="section" id="languages">
               <h2 class="section-title">Languages</h2>
-              <ul class="text-languages">
-                <li>
+              <ul class="languages-list">
+                <li class="language-item">
                   <img src="./assets/icons/Russian.png" alt="russian" />
                   Russian (native)
                 </li>
-                <li>
+                <li class="language-item">
                   <img src="./assets/icons/English.png" alt="english" />
                   English (B2)
                 </li>
               </ul>
             </section>
-          </aside>
-          <!-- Main section -->
-          <main class="main">
+          </div>
+          <!--Main content Main section---------------------------------------------------------------------------------->
+          <div class="main-content">
             <section class="section" id="about-me">
               <h2 class="section-title">About me</h2>
               <p class="text-about-me">
@@ -172,9 +170,11 @@
             </section>
             <section class="section" id="education">
               <h2 class="section-title">Education</h2>
-              <ul class="text-education">
-                <li>BrSTU: Road Construction major, bachelor;</li>
-                <li>
+              <ul class="education-list">
+                <li class="education-item">
+                  BrSTU: Road Construction major, bachelor;
+                </li>
+                <li class="education-item">
                   Rolling Scopes School : JavaScript Frontend (in process)
                 </li>
               </ul>
@@ -182,12 +182,12 @@
             <section class="section" id="code-example">
               <h2 class="section-title">Code example</h2>
               <pre class="code">
-                <code>
+                  <code>
                 <span class="text-purple">function</span> <span class="text-orange">multiply</span><span class="text-white">(</span><span class="text-orange">a</span><span class="text-white">,</span> <span class="text-orange">b</span><span class="text-white">){</span>
-                  <span class="text-purple">return</span> <span class="text-orange">a</span> <span class="text-white">*</span> <span class="text-orange">b</span>
-                <span class="text-white">}</span>
-              </code>
-            </pre>
+                    <span class="text-purple">return</span> <span class="text-orange">a</span> <span class="text-white">*</span> <span class="text-orange">b</span>
+                  <span class="text-white">}</span>
+                </code>
+              </pre>
             </section>
             <section class="section" id="projects">
               <h2 class="section-title">Projects</h2>
@@ -211,14 +211,13 @@
                 </div>
               </div>
             </section>
-          </main>
+          </div>
         </div>
-      </div>
-    </div>
-    <!-- Footer section starts here -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content-container">
+      </main>
+      <!--Footer section---------------------------------------------------------------------------------->
+      <footer class="footer">
+        <div class="footer-container container">
+          <div class="footer-decorative-box"></div>
           <div class="footer-github">
             <a href="https://github.com/DianaBzk" target="_blank">
               <img
@@ -227,22 +226,22 @@
                 class="github-logo"
             /></a>
           </div>
-          <div class="footer-rs-logo">
-            <a href="https://rs.school/js/" target="_blank">
-              <img
-                src="./assets/icons/logo_rs.svg"
-                alt="logo-rsschool"
-                class="rs-logo"
-            /></a>
-          </div>
-          <div class="footer-year">
-            <pre class="meta">
-              20
-              22              
-            </pre>
+          <div class="footer-content">
+            <div class="footer-rs-logo">
+              <a href="https://rs.school/js/" target="_blank">
+                <img
+                  src="./assets/icons/logo_rs.svg"
+                  alt="logo-rsschool"
+                  class="rs-logo"
+              /></a>
+            </div>
+            <div class="footer-year">
+              <p class="meta">20</p>
+              <p class="meta">22</p>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
